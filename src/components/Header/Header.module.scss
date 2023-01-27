@@ -1,0 +1,42 @@
+.header {
+  height: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
+  position: relative;
+  z-index: 10;
+  .container {
+    width: 100%;
+    max-width: 1330px;
+    padding: 0 20px;
+  }
+}
+
+.navPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+
+  .socials {
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+
+    .iconVK {
+      transition: 0.2s;
+      &:hover {
+        color: dodgerblue;
+      }
+    }
+    & > span {
+      transition: 0.2s;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}

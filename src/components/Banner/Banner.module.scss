@@ -1,0 +1,22 @@
+.container {
+  margin-top: -106px;
+  position: relative;
+}
+
+.text {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  bottom: 60px;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.background_font {
+  position: relative;
+  z-index: 1;
+  height: 263px;
+  width: 100%;
+}

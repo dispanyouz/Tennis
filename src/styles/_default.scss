@@ -54,11 +54,13 @@ button::-moz-focus-inner {
 }
 a,
 a:visited {
+  color: inherit;
   text-decoration: none;
 }
 a:hover {
   text-decoration: none;
 }
+
 ul li {
   list-style: none;
 }
@@ -76,3 +78,26 @@ h6 {
 }
 /* ::-webkit-scrollbar {display: none;} */
 /* ---end nullification--- */
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-VK:before {
+  content: "\e900";
+}
+.icon-youtube:before {
+  content: "\e901";
+}
